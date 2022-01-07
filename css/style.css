@@ -127,7 +127,7 @@ a:hover {
     color: #2f5a62;
     font-weight: bold;
     position: relative;
-    bottom: 3rem;
+    bottom: 5.5rem;
 }
 
 .form-control {
@@ -167,7 +167,7 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
   .logopic{
-    width: 75px;
+    width: 65px;
   }
 
   .firstcol {
@@ -190,7 +190,7 @@ a:hover {
     color: #2f5a62;
     font-weight: bold;
     position: relative;
-    bottom: 3rem;
+    bottom: 5.6rem;
 }
 
 .form-control {
@@ -231,9 +231,6 @@ a{
   font-size: 10px;
 }
 
-.logopic {
-    width: 85px;
-}
 
 
 }
@@ -275,6 +272,7 @@ a{
   .title-log {
       display: flex;
       flex-direction: column;
+      margin-top: -1.3rem;
   }
 
 
@@ -282,7 +280,7 @@ a{
       color: #2f5a62;
       font-weight: bold;
       position: relative;
-      bottom: 9rem;
+      bottom: 7.7rem;
       font-size: 14px;
   }
 
@@ -291,14 +289,14 @@ a{
       width: 85%;
       height: 50px;
       font-size: 14px;
-      top: -8rem;
+      top: -4rem;
       position: relative;
   }
 
   .buttonn {
       margin-top: -11rem;
       position: relative;
-      top: 5rem;
+      top: 11.5rem;
   }
 
   .btn {
@@ -325,6 +323,7 @@ a{
       justify-content: center;
       position: relative;
       bottom: 3rem;
+      margin-top: 6.5rem;
   }
 
   .secondcol {
@@ -380,7 +379,7 @@ a{
       color: #2f5a62;
       font-weight: bold;
       position: relative;
-      bottom: 7rem;
+      bottom: 5.8rem;
       font-size: 12px;
   }
 
@@ -389,12 +388,12 @@ a{
       width: 85%;
       height: 30px;
       font-size: 12px;
-      top: -6rem;
+      top: -2.5rem;
       position: relative;
   }
 
   .buttonn {
-      margin-top: -9rem;
+      margin-top: -10.5rem;
   }
 
   .btn {
@@ -477,7 +476,7 @@ a{
       color: #2f5a62;
       font-weight: bold;
       position: relative;
-      bottom: 5rem;
+      bottom: 4.3rem;
       font-size: 10px;
   }
 
@@ -486,12 +485,12 @@ a{
       width: 75%;
       height: 20px;
       font-size: 10px;
-      top: -4rem;
+      top: -2.5rem;
       position: relative;
   }
 
   .buttonn {
-      margin-top: -8rem;
+      margin-top: -11.6rem;
   }
 
   .btn {
