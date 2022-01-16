@@ -8,44 +8,6 @@ body {
   width: 35px;
   height: 40px;
 }
-/*
-.navbar {
-  padding: 0.5rem 2rem 0.5rem 8rem;
-  height: 9rem;
-}
-
-.navigbar {
-  background-color: #c1ebe2 !important;
-}
-
-.navbar-nav {
-  margin-left: 7rem;
-}
-
-.brandname {
-  font-size: 1rem;
-  font-weight: bold;
-  font-size: 20px;
-  position: relative;
-  top: 6px;
-  color: #2f5a62;
-}
-
-.nav-item {
-  font-weight: bold;
-  margin-right: 3rem;
-  position: relative;
-  top: 4px;
-  color: #669591;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-  color: #2f5a62;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #669591;
-} */
 
 .navbar{
   background-color: #c1ebe2 !important;
@@ -138,15 +100,6 @@ body {
     padding: 0.5rem 2rem 0.5rem 5rem;
   }
 
-  .brandname {
-    font-size: 14px;
-  }
-
-  /* .logo-photo {
-    width: 80px;
-    height: 60px;
-  } */
-
   .navbar {
     padding: 0.5rem 2rem;
   }
@@ -155,10 +108,6 @@ body {
     padding: 5rem 0rem 3rem 3rem;
   }
 
-  .btn {
-    /* position: relative; */
-    /* left: 2rem; */
-  }
 }
 
 @media only screen and (max-width: 430px) {
@@ -173,30 +122,6 @@ body {
     margin-right: 0 !important;
   }
 
-  /* .navbar {
-    height: 10rem;
-  } */
-
-  /* .navbar-nav {
-    flex-direction: row;
-    position: relative;
-    left: 10px;
-    margin-left: 0;
-    bottom: 7px;
-  } */
-
-  /* .logo-photo {
-    width: 55px;
-    height: 56px;
-    position: relative;
-    top: 7px;
-  } */
-
-  /* .brandname {
-    top: 13px;
-    right: 3rem;
-    font-size: 18px;
-  } */
 
   .profcol {
     justify-content: center;
@@ -206,13 +131,6 @@ body {
 }
 
 @media only screen and (max-width: 380px) {
-  .brandname {
-    right: 1rem;
-  }
-
-  .btn {
-    /* left: -1rem; */
-  }
 
   .profilepic {
     width: 150px;
@@ -231,10 +149,6 @@ body {
     font-size: 14px;
     width: 95px;
   }
-/*
-  .nav-item {
-    margin-right: 2rem;
-  } */
 
   .profilepic {
     width: 130px;
