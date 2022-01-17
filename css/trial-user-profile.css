@@ -9,26 +9,27 @@ body {
   height: 40px;
 }
 
-.navbar{
+.navbar {
   background-color: #c1ebe2 !important;
 }
 
-.navbar-nav{
+.navbar-nav {
   align-items: center;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-weight: bold;
   color: #2f5a62 !important;
+  font-size: calc(23% + 1vw + 1vh);
 }
 
-.nav-link{
+.nav-link {
   font-weight: bold;
   color: #669591 !important;
   margin-right: 2rem;
 }
 
-
-.active{
+.active {
   color: #2f5a62 !important;
 }
 
@@ -80,17 +81,27 @@ body {
   bottom: 10px;
 }
 
-
-
 /* MEDIA QUERY */
 @media only screen and (max-width: 1024px) {
-  .profilepic {
+  /* .profilepic {
     position: relative;
     right: 1rem;
+  } */
+  .profilepic {
+      width: 170px;
+      height: 170px;
+  }
+
+  .container {
+      padding: 5rem 3rem 3rem 3rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
+  .pl-5, .px-5 {
+    padding-left: 0rem !important;
+  }
+
   .profilepic {
     width: 180px;
     height: 180px;
@@ -107,21 +118,23 @@ body {
   .container {
     padding: 5rem 0rem 3rem 3rem;
   }
-
 }
 
 @media only screen and (max-width: 430px) {
+  .pl-5, .px-5 {
+    padding-left: 2rem !important;
+  }
+
   .profilepic {
     width: 170px;
     height: 170px;
   }
 
-  .navbar-brand{
-    font-size: 15px;
+  .navbar-brand {
+    /* font-size: 15px; */
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
-
 
   .profcol {
     justify-content: center;
@@ -131,19 +144,33 @@ body {
 }
 
 @media only screen and (max-width: 380px) {
+  .navbar-brand {
+    font-size: 15px;
+  }
 
   .profilepic {
     width: 150px;
     height: 150px;
   }
+
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .pl-5, .px-5 {
+    padding-left: 2rem !important;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-  .logo-photo {
-      width: 30px;
-      height: 35px;
+  .profcol {
+    padding-right: 0;
   }
 
+  /* .logo-photo {
+    width: 30px;
+    height: 35px;
+  } */
   .btn {
     left: 0;
     font-size: 14px;
@@ -156,10 +183,20 @@ body {
   }
 
   .navbar {
-    padding-left: 2rem!important;
+    padding-left: 1rem !important;
   }
 
-  .navbar-brand{
-    font-size: 12px;
+  .navbar-brand {
+    font-size: 13px;
+    position: relative;
+    left: 10px;
   }
+
+  .container {
+    padding: 5rem 3rem 3rem 3rem;
+  }
+
+  /* .navbar-brand{
+    font-size: 12px;
+  } */
 }
